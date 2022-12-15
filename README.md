@@ -19,7 +19,7 @@ To run this application:
 
 # Technology used
 HTML5, CSS3, JavaScript, 
-- After everything is installed, run the command `json-server -w db.json` while in the project directory / folder.
+- After everything is installed, run the command ` *http://127.0.0.1:3000/index.html` while in the project directory / folder.
 - Open the `index.html` file in the browser, and start interacting with the application
 
 ## How to use the application
