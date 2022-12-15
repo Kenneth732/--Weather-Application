@@ -35,3 +35,152 @@ a{
 .logo{
     width: 90px;
 }
+
+
+
+.container{
+  width: 375px;
+  height: 700px;
+  background: #EFEFEF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+.container-nav h1{
+  font-size: 24px;
+}
+.container-nav i{
+  font-size: 22px;
+}
+.container-header{
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.container-main-search{
+  width: 85%;
+  height: 70px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.cont-from{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cont-from i{
+  margin-right: 20px;
+}
+.cont-from p{
+  color: #858585;
+}
+.separator{
+  width: 80%;
+  height: 1px;
+  background: #DADADA;
+  margin-top: 20px;
+  margin-left: 63px;
+}
+.cont-to{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cont-to i{
+  margin-right: 20px;
+}
+.cont-to p{
+  color: #858585;
+}
+.container-main-button{
+  width: 100%;
+  margin: 20px auto;
+}
+.main-btn{
+  margin: 0 auto;
+  width: 85%;
+  border: none;
+  background: #282828;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.main-btn-text p{
+  color: white;
+}
+.main-btn-icon .fas.fa-chevron-right.first{
+  margin-right: -5px;
+  color: #858585;
+}
+.main-btn-icon .fas.fa-chevron-right.second{
+  color: white;
+}
+.container-recommandations{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container-recommandations-title{
+  margin-left: 30px;
+}
+.container-recommandations-block{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.block-1{
+  width: 150px;
+  background: white;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.block-img{
+  display: flex;
+  justify-content: center;
+}
+.block-img img{
+  width: 120px;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: auto;
+}
+.block-2{
+  width: 150px;
+  background: white;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#cityinput{
+    margin-top: -10.1px;
+    width: 100%;
+    background: transparent;
+    padding: 10px 22px;
+    border: 0;
+}
