@@ -14,6 +14,9 @@ To run this application:
 - Run `npm install` to install all necessary packages for the applction to work.
 - Ensure that you have the json data as below:
 
+# Liveserver link
+   *http://127.0.0.1:3000/index.html
+
 # Technology used
 HTML5, CSS3, JavaScript, 
 - After everything is installed, run the command `json-server -w db.json` while in the project directory / folder.
